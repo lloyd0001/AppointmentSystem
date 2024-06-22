@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<patients>
+  <patient>
+    <pid>1</pid>
+    <pemail>patient@edoc.com</pemail>
+    <pname>Test Patient</pname>
+    <ppassword>123</ppassword>
+    <paddress>Sri Lanka</paddress>
+    <pnic>0000000000</pnic>
+    <pdob>2000-01-01</pdob>
+    <ptel>0120000000</ptel>
+  </patient>
+  <patient>
+    <pid>2</pid>
+    <pemail>emhashenudara@gmail.com</pemail>
+    <pname>Hashen Udara</pname>
+    <ppassword>123</ppassword>
+    <paddress>Sri Lanka</paddress>
+    <pnic>0110000000</pnic>
+    <pdob>2022-06-03</pdob>
+    <ptel>0700000000</ptel>
+  </patient>
+</patients>

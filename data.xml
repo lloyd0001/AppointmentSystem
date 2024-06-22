@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+  <admin>
+    <row>
+      <aemail>admin@edoc.com</aemail>
+      <apassword>123</apassword>
+    </row>
+  </admin>
+  <appointment>
+    <row>
+      <appoid>1</appoid>
+      <pid>1</pid>
+      <apponum>1</apponum>
+      <scheduleid>1</scheduleid>
+      <appodate>2022-06-03</appodate>
+    </row>
+    <row>
+      <appoid>2</appoid>
+      <pid>1</pid>
+      <apponum>2</apponum>
+      <scheduleid>1</scheduleid>
+      <appodate>2024-05-15</appodate>
+    </row>
+    <row>
+      <appoid>3</appoid>
+      <pid>1</pid>
+      <apponum>1</apponum>
+      <scheduleid>9</scheduleid>
+      <appodate>2024-05-16</appodate>
+    </row>
+    <row>
+      <appoid>4</appoid>
+      <pid>5</pid>
+      <apponum>1</apponum>
+      <scheduleid>10</scheduleid>
+      <appodate>2024-05-20</appodate>
+    </row>
+    <row>
+      <appoid>6</appoid>
+      <pid>7</pid>
+      <apponum>1</apponum>
+      <scheduleid>14</scheduleid>
+      <appodate>2024-05-20</appodate>
+    </row>
+    <row>
+      <appoid>7</appoid>
+      <pid>7</pid>
+      <apponum>2</apponum>
+      <scheduleid>13</scheduleid>
+      <appodate>2024-05-20</appodate>
+    </row>
+    <row>
+      <appoid>8</appoid>
+      <pid>8</pid>
+      <apponum>2</apponum>
+      <scheduleid>14</scheduleid>
+      <appodate>2024-05-21</appodate>
+    </row>
+  </appointment>
+  <doctor>
+    <row>
+      <docid>4</docid>
+      <docemail>IanMangana0503@gmail.com</docemail>
+      <docname>Ian Mangana</docname>
+      <docpassword>123</docpassword>
+      <docnic>4901</docnic>
+      <doctel>09876543221</doctel>
+      <specialties>2</specialties>
+    </row>
+    <row>
+      <docid>5</docid>
+      <docemail>latrel@gmail.com</docemail>
+      <docname>Latrell Leyco</docname>
+      <docpassword>123</docpassword>
+      <docnic>4901</docnic>
+      <doctel>098735647812</doctel>
+      <specialties>1</specialties>
+    </row>
+    <row>
+      <docid>6</docid>
+      <docemail>aj.mangana2002@gmail.com</docemail>
+      <docname>Aerold Mangana</docname>
+      <docpassword>123</docpassword>
+      <docnic>4901</docnic>
+      <doctel>09826573865</doctel>
+      <specialties>3</specialties>
+    </row>
+    <row>
+      <docid>7</docid>
+      <docemail>juan@gmail.com</docemail>
+      <docname>Juan Dela Crux</docname>
+      <docpassword>123</docpassword>
+      <docnic>4901</docnic>
+      <doctel>09088763564</doctel>
+      <specialties>4</specialties>
+    </row>
+    <row>
+      <docid>8</docid>
+      <docemail>ei@gmail.com</docemail>
+      <docname>Raiden Shogun</docname>
+      <docpassword>123</docpassword>
+      <docnic>4901</docnic>
+      <doctel>09876516785</doctel>
+      <specialties>5</specialties>
+    </row>
+  </doctor>
+  <patient>
+    <row>
+      <pid>6</pid>
+      <pemail>goku@gmail.com</pemail>
+      <pname>Goku Labay</pname>
+      <ppassword>123</ppassword>
+      <paddress>Namek,Universe2</paddress>
+      <pnic>01</pnic>
+      <pdob>2000-12-25</pdob>
+      <ptel>0983547865</ptel>
+    </row>
+    <row>
+      <pid>7</pid>
+      <pemail>vege@gmail.com</pemail>
+      <pname>Vegeta Dela Cruz</pname>
+      <ppassword>123</ppassword>
+      <paddress>Namek Universe2,01</paddress>
+      <pnic>00</pnic>
+      <pdob>1999-01-01</pdob>
+      <ptel>0987134565</ptel>
+    </row>
+    <row>
+      <pid>8</pid>
+      <pemail>john@gmail.com</pemail>
+      <pname>john  mangana</pname>
+      <ppassword>123</ppassword>
+      <paddress>laon mogpog marinduque</paddress>
+      <pnic>4901</pnic>
+      <pdob>2007-03-14</pdob>
+      <ptel>0988765654</ptel>
+    </row>
+  </patient>
+  <schedule>
+    <row>
+      <scheduleid>11</scheduleid>
+      <docid>6</docid>
+      <title>Educational Assistance</title>
+      <scheduledate>2024-05-21</scheduledate>
+      <scheduletime>08:30:00</scheduletime>
+      <nop>50</nop>
+    </row>
+    <row>
+      <scheduleid>12</scheduleid>
+      <docid>4</docid>
+      <title>Burial Assistance</title>
+      <scheduledate>2024-05-21</scheduledate>
+      <scheduletime>08:30:00</scheduletime>
+      <nop>30</nop>
+    </row>
+    <row>
+      <scheduleid>13</scheduleid>
+      <docid>7</docid>
+      <title>Financial Assistance</title>
+      <scheduledate>2024-05-21</scheduledate>
+      <scheduletime>08:00:00</scheduletime>
+      <nop>70</nop>
+    </row>
+    <row>
+      <scheduleid>14</scheduleid>
+      <docid>5</docid>
+      <title>Medical Assistance</title>
+      <scheduledate>2024-05-21</scheduledate>
+      <scheduletime>22:30:00</scheduletime>
+      <nop>100</nop>
+    </row>
+    <row>
+      <scheduleid>16</scheduleid>
+      <docid>5</docid>
+      <title>Transportation Service</title>
+      <scheduledate>2024-06-01</scheduledate>
+      <scheduletime>00:30:00</scheduletime>
+      <nop>30</nop>
+    </row>
+  </schedule>
+  <specialties>
+    <row>
+      <id>1</id>
+      <sname>Educational Assistance</sname>
+    </row>
+    <row>
+      <id>2</id>
+      <sname>Burial Assistance</sname>
+    </row>
+    <row>
+      <id>3</id>
+      <sname>Financial Assistance</sname>
+    </row>
+    <row>
+      <id>4</id>
+      <sname>Medical Assistance</sname>
+    </row>
+    <row>
+      <id>5</id>
+      <sname>Transportation Service</sname>
+    </row>
+  </specialties>
+  <webuser>
+    <row>
+      <email>admin@edoc.com</email>
+      <usertype>a</usertype>
+    </row>
+    <row>
+      <email>IanMangana0503@gmail.com</email>
+      <usertype>d</usertype>
+    </row>
+    <row>
+      <email>latrel@gmail.com</email>
+      <usertype>d</usertype>
+    </row>
+    <row>
+      <email>aj.mangana2002@gmail.com</email>
+      <usertype>d</usertype>
+    </row>
+    <row>
+      <email>juan@gmail.com</email>
+      <usertype>d</usertype>
+    </row>
+    <row>
+      <email>ei@gmail.com</email>
+      <usertype>d</usertype>
+    </row>
+    <row>
+      <email>goku@gmail.com</email>
+      <usertype>p</usertype>
+    </row>
+    <row>
+      <email>vege@gmail.com</email>
+      <usertype>p</usertype>
+    </row>
+    <row>
+      <email>john@gmail.com</email>
+      <usertype>p</usertype>
+    </row>
+  </webuser>
+</database>
